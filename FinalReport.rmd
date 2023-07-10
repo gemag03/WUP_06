@@ -45,6 +45,20 @@ If not, then whose view differs from whom??
 
 
 
+```{r}
+barchartGC(~race + cappun,data=mydata)
+barchartGC(~race + cappun,data=mydata, type="percent")
+
+```
+
+
+
+The white race is more in favor of capital punishment then the other race comes in second of being in favor.The black race is the lowest.The black race has more opposed than the other race.
+
+
+
+
+
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 
 
