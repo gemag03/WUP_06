@@ -89,7 +89,27 @@ The white race has the highest percentage of 67.75 who are in favor of capital p
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-`
+
+
+```{r}
+chisq.test(table2)
+chisqtestGC(table2)
+```
+
+
+
+There is still a difference with the stats witholding a p value of .005.
+
+
+
+
+```{r}
+fisher.test(mydata$race,mydata$cappun)
+```
+
+
+
+The white and black race are different yet there id no difference with each one being compared to other race.The only p value that is significant is bettween the black and white race, even if it had less data.
 
 
 
