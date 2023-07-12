@@ -71,6 +71,17 @@ The white race is more in favor of capital punishment then the other race comes 
 
 
 
+```{r}
+table2 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table2)
+colPerc(table2)
+```
+
+
+
+The white race has the highest percentage of 67.75 who are in favor of capital punishment. The second highest is the other race with a percentage of 61.25.The black race has the highest percentage of those opposed of capital punishment at 52.76.All races have an equal number of people in each one.
+
+
 
 
 
