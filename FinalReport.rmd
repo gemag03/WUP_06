@@ -128,3 +128,12 @@ Every race is different as we see in this data.Yet we still have a low p-value. 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+
+
+In this data the white race still holds the highest percentage of people who are for capital punishment. The black race holds the highest percentage of people that are opposed to capital punishment. The big difference is only between the black and white race based on the p value. There is also a difference in the master branch and number 2 branch.
+
+
+
+
